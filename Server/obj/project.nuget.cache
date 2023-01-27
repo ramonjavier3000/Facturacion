@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "dgSpecHash": "WesTABZekFvRH0618P5qQLpOky4Qd9tjZIeg6pH1jI2pStaWjjVDZ4FBVtF0h4v6QQY/U+V9BAB82TUwW1qY1A==",
+  "success": false,
+  "projectFilePath": "C:\\facturacion_2023\\Server\\facturacion_2023.Server.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "No se pudo descargar el paquete \"Microsoft.AspNetCore.Components.WebAssembly.Server.6.0.9\" de \"https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.components.webassembly.server/6.0.9/microsoft.aspnetcore.components.webassembly.server.6.0.9.nupkg\".\r\nLa descarga de \"https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.components.webassembly.server/6.0.9/microsoft.aspnetcore.components.webassembly.server.6.0.9.nupkg\" agotó el tiempo de espera porque no se recibió ningún dato durante 60000 ms.\r\n  Exception of type 'System.TimeoutException' was thrown."
+    }
+  ]
+}

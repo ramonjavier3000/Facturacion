@@ -1,0 +1,98 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Microsoft.AspNetCore.Components.WebAssembly.Server >= 6.0.9"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Javier\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\facturacion_2023\\Server\\facturacion_2023.Server.csproj",
+      "projectName": "facturacion_2023.Server",
+      "projectPath": "C:\\facturacion_2023\\Server\\facturacion_2023.Server.csproj",
+      "packagesPath": "C:\\Users\\Javier\\.nuget\\packages\\",
+      "outputPath": "C:\\facturacion_2023\\Server\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Javier\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\facturacion_2023\\Client\\facturacion_2023.Client.csproj": {
+              "projectPath": "C:\\facturacion_2023\\Client\\facturacion_2023.Client.csproj"
+            },
+            "C:\\facturacion_2023\\Shared\\facturacion_2023.Shared.csproj": {
+              "projectPath": "C:\\facturacion_2023\\Shared\\facturacion_2023.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.WebAssembly.Server": {
+            "target": "Package",
+            "version": "[6.0.9, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Error",
+      "message": "No se pudo descargar el paquete \"Microsoft.AspNetCore.Components.WebAssembly.Server.6.0.9\" de \"https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.components.webassembly.server/6.0.9/microsoft.aspnetcore.components.webassembly.server.6.0.9.nupkg\".\r\nLa descarga de \"https://api.nuget.org/v3-flatcontainer/microsoft.aspnetcore.components.webassembly.server/6.0.9/microsoft.aspnetcore.components.webassembly.server.6.0.9.nupkg\" agotó el tiempo de espera porque no se recibió ningún dato durante 60000 ms.\r\n  Exception of type 'System.TimeoutException' was thrown."
+    }
+  ]
+}
